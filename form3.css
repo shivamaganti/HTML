@@ -1,0 +1,96 @@
+
+body{
+	background: rgba(0,0,0,0.7)
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+	 font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+  padding: 20px 230px 5px 230px;
+  border-radius: 5px;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+h5{
+	text-align: center;
+	color: white;
+
+	font-size: 20px;
+}
+.box{
+	background: rgba(13, 152, 186, 0.8);
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	margin: 20px;
+	color: ghostwhite;
+}
+#top{
+
+	margin-bottom: 25px;
+}
+label{
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+input{
+	margin-left: 20px;
+}
+input:active{
+	border: 2px solid deepskyblue;
+}
+#left{
+	padding: 8px;
+	width: 88%;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+#left1{
+	padding: 8px;
+	width: 90%;
+	font-size: 15px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+}
+input[type=radio] 
+{
+    width: 10%;
+    height: 20px;
+    margin-left: 0px;
+}
+
+input[type=textbox] 
+{
+    width: 100px;
+    height: 20px;
+    margin-left: 0px;
+}
+input.defaultCheckbox {
+            width: 40px;
+            height: 20px;
+        }
+.text{
+	width: 80%;
+	height:  110px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background:  mediumseagreen;
+  color: white;
+  border-collapse: collapse;
+  cursor: pointer;
+  font-size: 20px;
+
+}
